@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: blueviolet;
+   
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: inline-block;
+ 
+}
+
+.row {
+    width: 100%;
+    max-width: 1400px;
+    min-width: 1250px;
+    margin: auto;
+}
+
+.box {
+    width: 50%;
+    margin: auto;
+   
+}
+
+.numclicks,h2 {
+    text-align: left;
+    color: #fff;
+}
+
+.images {
+    background: rgb(51, 244, 144);
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.images img {
+    padding: 5px;
+    display: none;
+    width: 130px;
+}
+
+
+.restart {
+    text-align: center;
+}
+
+#Restart {
+    font-family: 'Montserrat Alternates', sans-serif;
+    float: left;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: rgb(22, 7, 237);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.ruotata img{
+    background-color: rgb(235, 162, 255);
+    display: block;
+    padding: 5px;
+    width: 130px;
+    border-radius: 10px;
+}
+.ruotata{
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    pointer-events: none;
+    
+}
+.giusta img{
+    background-color: rgb(75, 193, 248);
+    display: block;
+    padding: 5px;
+    width: 130px;
+    border-radius: 10px;
+}
+.giusta{
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+#modal {
+display: none;
+justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(109, 248, 246, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#modal h2 {
+    text-align: center;
+    padding-top: 10rem;
+    font-size:  100px;
+    color: #fff;
+
+}
+
+.content {
+    
+    padding-left: 55rem;
+}
+
+.again {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: rgb(15, 15, 15);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+h1 {
+    margin: auto;
+    font-size: 50px;
+    padding-left: 33rem;
+    padding-top: 3rem ;
+    color: #fff;
+}
