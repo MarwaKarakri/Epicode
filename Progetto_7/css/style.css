@@ -1,0 +1,11 @@
+.container{
+    text-align: center;
+    
+}
+#dieci,#venti,#cinquanta,#cento, #logout, #secondiCall,#numeroCall,#inoltraCall,#infoCall,#azzeraCall{
+    display: none;
+}
+
+img {
+    text-align: center;
+}
